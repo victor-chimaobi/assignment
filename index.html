@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+
+    <div class="calculate">
+        <input type="text" id="display" readonly>
+        <div class="button">
+            <button type="button" value="+" onclick="appendtodisplay(this.value)" class="calculate-btn">+</button>
+            <button type="button" value="7" onclick="appendtodisplay(this.value)">7</button>
+            <button type="button" value="8" onclick="appendtodisplay(this.value)">8</button>
+            <button type="button" value="9" onclick="appendtodisplay(this.value)">9</button>
+            <button type="button" value="-" onclick="appendtodisplay(this.value)" class="calculate-btn">-</button>
+            <button type="button" value="4" onclick="appendtodisplay(this.value)">4</button>
+            <button type="button" value="5" onclick="appendtodisplay(this.value)">5</button>
+            <button type="button" value="6" onclick="appendtodisplay(this.value)">6</button>
+            <button type="button" value="*" onclick="appendtodisplay(this.value)" class="calculate-btn">*</button>
+            <button type="button" value="1" onclick="appendtodisplay(this.value)">1</button>
+            <button type="button" value="2" onclick="appendtodisplay(this.value)">2</button>
+            <button type="button" value="3" onclick="appendtodisplay(this.value)">3</button>
+            <button type="button" value="/" onclick="appendtodisplay(this.value)" class="calculate-btn">/</button>
+            <button type="button" value="0" onclick="appendtodisplay(this.value)">0</button>
+            <button type="button" value="." onclick="appendtodisplay(this.value)">.</button>
+            <button type="button" onclick="calculate()" class="calculate-btn">=</button>
+            <button type="button" onclick="clearDisplay()" class="calculate-btn">C</button>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
